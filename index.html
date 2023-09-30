@@ -21,8 +21,9 @@
         }
         .corner-image {
             position: absolute;
-            top: 10px;
-            left: 10px; /* Posiciona no canto superior esquerdo */
+            top: 50%; /* Posiciona verticalmente no centro da tela */
+            left: 50%; /* Posiciona horizontalmente no centro da tela */
+            transform: translate(-50%, -50%); /* Centraliza a imagem */
             max-width: 200px;
             z-index: 2; /* Coloca a imagem na frente do conteúdo e do plano preto */
         }
@@ -59,8 +60,8 @@
 <body>
     <img class="full-screen-image" src="./layout-salao-de-beleza.jpg" alt="Imagem de Fundo">
     
-    <!-- Mova a imagem para cima do plano preto e da frase -->
-    <img class="corner-image" src="./photo1696003604.png" alt="Imagem no Canto Superior Esquerdo">
+    <!-- Posicione a imagem no centro e acima do plano preto -->
+    <img class="corner-image" src="./photo1696003604.png" alt="Imagem no Centro">
     
     <div class="container">
         <h1>Bem-vindo ao Nosso Site</h1>
