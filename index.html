@@ -29,6 +29,15 @@
             margin-top: 20px;
         }
         .container {
+            position: absolute;
+            top: 50%; /* Coloca o container no centro vertical da tela */
+            left: 50%; /* Coloca o container no centro horizontal da tela */
+            transform: translate(-50%, -50%); /* Centraliza o container */
+            background-color: gold; /* Cor de fundo dourada */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .button-container {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -38,17 +47,20 @@
             margin: 10px;
             padding: 10px 20px;
             font-size: 18px;
+            background-color: gold; /* Cor de fundo dourada para os botões */
         }
     </style>
 </head>
 <body>
     <img class="full-screen-image" src="./layout-salao-de-beleza.jpg" alt="Imagem de Fundo">
-    <img class="corner-image" src="./photo1696003604.png" alt="Imagem no Canto Superior Esquerdo">
+    <img class="corner-image" src="./photo1696003604.jpeg" alt="Imagem no Canto Superior Esquerdo">
     
-    <h1>Selecione sua função:</h1>
+    <div class="container">
+        <h1>Selecione sua função:</h1>
     <div class="container">
         <button onclick="acessoEntradasSaidas()">Entradas / Saídas</button>
         <button onclick="acessoAcessoRestrito()">Acesso Restrito</button>
+        </div>
     </div>
     <script src="autenticacao.js"></script>
 </body>
