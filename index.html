@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Página de Autenticação</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             margin: 0;
@@ -27,13 +28,15 @@
         }
         h1 {
             margin-top: 20px;
+            font-size: 24px; /* Tamanho de fonte maior */
         }
         .container {
             position: absolute;
             top: 50%; /* Coloca o container no centro vertical da tela */
             left: 50%; /* Coloca o container no centro horizontal da tela */
             transform: translate(-50%, -50%); /* Centraliza o container */
-            background-color: gold; /* Cor de fundo dourada */
+            background-color: black; /* Cor de fundo preta */
+            color: white; /* Cor do texto branca */
             padding: 20px;
             border-radius: 10px;
         }
@@ -47,7 +50,8 @@
             margin: 10px;
             padding: 10px 20px;
             font-size: 18px;
-            background-color: gold; /* Cor de fundo dourada para os botões */
+            background-color: black; /* Cor de fundo preta para os botões */
+            color: white; /* Cor do texto branca */
         }
     </style>
 </head>
@@ -56,10 +60,10 @@
     <img class="corner-image" src="./photo1696003604.jpeg" alt="Imagem no Canto Superior Esquerdo">
     
     <div class="container">
-        <h1>Selecione sua função:</h1>
-    <div class="container">
-        <button onclick="acessoEntradasSaidas()">Entradas / Saídas</button>
-        <button onclick="acessoAcessoRestrito()">Acesso Restrito</button>
+        <h1>Bem-vindo ao Nosso Site</h1>
+        <div class="button-container">
+            <button onclick="acessoEntradasSaidas()">Entradas / Saídas</button>
+            <button onclick="acessoAcessoRestrito()">Acesso Restrito</button>
         </div>
     </div>
     <script src="autenticacao.js"></script>
