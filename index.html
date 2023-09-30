@@ -10,7 +10,6 @@
             background-color: #f0f0f0; /* Cor de fundo personalizada */
             text-align: center;
         }
-        
         .full-screen-image {
             position: absolute;
             top: 0;
@@ -22,7 +21,7 @@
         .corner-image {
             position: absolute;
             top: 10px;
-            right: 10px;
+            left: 10px; /* Posiciona no canto superior esquerdo */
             max-width: 200px;
             z-index: 1; /* Coloca a imagem na frente do conteúdo */
         }
@@ -43,8 +42,8 @@
     </style>
 </head>
 <body>
-    <img class="full-screen-image" src="layout-salao-de-beleza.jpeg" alt="Imagem de Fundo">
-    <img class="corner-image" src="photo1696003604.jpeg" alt="Imagem no Canto Superior Direito">
+    <img class="full-screen-image" src="layout-salao-de-beleza.jpg" alt="Imagem de Fundo">
+    <img class="corner-image" src="photo1696003604.jpg" alt="Imagem no Canto Superior Esquerdo">
     
     <h1>Selecione sua função:</h1>
     <div class="container">
