@@ -21,14 +21,14 @@
         }
         .corner-image {
             position: absolute;
-            top: 50%; /* Posiciona verticalmente no centro da tela */
+            top: 20px; /* Ajusta a posição vertical acima da frase de boas-vindas */
             left: 50%; /* Posiciona horizontalmente no centro da tela */
-            transform: translate(-50%, -50%); /* Centraliza a imagem */
+            transform: translateX(-50%); /* Centraliza a imagem horizontalmente */
             max-width: 200px;
             z-index: 2; /* Coloca a imagem na frente do conteúdo e do plano preto */
         }
         h1 {
-            margin-top: 20px;
+            margin-top: 100px; /* Aumenta a margem superior da frase de boas-vindas */
             font-size: 24px; /* Tamanho de fonte maior */
         }
         .container {
@@ -60,7 +60,7 @@
 <body>
     <img class="full-screen-image" src="./layout-salao-de-beleza.jpg" alt="Imagem de Fundo">
     
-    <!-- Posicione a imagem no centro e acima do plano preto -->
+    <!-- Posicione a imagem acima da frase de boas-vindas -->
     <img class="corner-image" src="./photo1696003604.png" alt="Imagem no Centro">
     
     <div class="container">
