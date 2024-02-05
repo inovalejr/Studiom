@@ -1,6 +1,6 @@
 function acessoEntradasSaidas() {
     // Redirecionar para o link de Entradas / Saídas
-    window.location.href = "https://docs.google.com/spreadsheets/d/1vEm83ZaHyXXXgpwoexTVqTpUbJuj7dVMqNOlP2tLbbg/edit#gid=0";
+    window.location.href = "https://docs.google.com/spreadsheets/d/1d0dKLVbrl64l-N9KJHmXQWCYA_paHyKCHhX2QtR_GB0/edit#gid=0";
 }
 
 function acessoAcessoRestrito() {
@@ -10,7 +10,7 @@ function acessoAcessoRestrito() {
     // Verificar a senha
     if (senha === "15062003") {
         // Se a senha estiver correta, redirecionar para o link de Acesso Restrito
-        window.location.href = "https://docs.google.com/spreadsheets/d/1T51HwazDE49zLuzqLeBH3egoXl_yb7tEI16VTKYga9k/edit#gid=0";
+        window.location.href = "https://docs.google.com/spreadsheets/d/1nbCciFGTcLnfH2SkUcJ_Sm8ZBUndFN-zr5EgufBatUE/edit#gid=0";
     } else {
         // Se a senha estiver incorreta, mostrar mensagem de erro
         alert("Senha incorreta. Acesso negado.");
