@@ -10,7 +10,7 @@ function acessoAcessoRestrito() {
     // Verificar a senha
     if (senha === "15062003") {
         // Se a senha estiver correta, redirecionar para o link de Acesso Restrito
-        window.location.href = "https://docs.google.com/spreadsheets/d/1T51HwazDE49zLuzqLeBH3egoXl_yb7tEI16VTKYga9k/edit#gid=0";
+        window.location.href = "https://docs.google.com/spreadsheets/d/13SxrZ4w-TCTKF4ggORiBEQAC75T_NXtqy_L0YK8RS5Y/edit#gid=1453687138";
     } else {
         // Se a senha estiver incorreta, mostrar mensagem de erro
         alert("Senha incorreta. Acesso negado.");
